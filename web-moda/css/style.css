@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Inicio {
+    background: url(./fondomodel.jpg) no-repeat;
+    height: 110vh;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.781);
+    ;
+}
+
+.Inicio h1 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.Inicio p {
+    font: italic;
+    font-size: 1.3em;
+}
+
+.Inicio .btn1 {
+    height: 45px;
+    width: 140px;
+    background-color: transparent;
+    border: 2px solid rgb(37, 37, 37);
+    color: bisque;
+    outline: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.btn1:hover {
+    background-color: rgb(156, 156, 156);
+    color: white;
+    border: none;
+}
+
+.Tempo p {
+    color: grey;
+}
+
+#icon {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(173, 173, 173, 0.801);
+    color: mintcream;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 45px;
+    text-align: center;
+    display: inline-block;
+}
+
+#icon:hover {
+    background: black;
+    color: cornsilk;
+    height: 104px;
+    width: 104px;
+    transition: 0.50s;
+}
+
+.Nosotros .p1 {
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.Nosotros P {
+    color: grey;
+}
+
+.Galeria p {
+    color: grey;
+}
+
+img {
+    max-width: 100%;
+}
+
+.gallery {
+    background-color: #dbddf1;
+    padding: 80px 0;
+}
+
+.gallery img {
+    background-color: #ffffff;
+    padding: 8px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#gallery-modal .modal-img {
+    width: 100%;
+}
+
+.Noticias img {
+    display: inline-block;
+    border-left: 1px solid white;
+    margin-bottom: 15px;
+}
+
+.Noticias p,
+a {
+    color: grey;
+}
+
+.Noticias a {
+    color: rgb(32, 31, 31);
+}
+
+.Noticias small {
+    font-weight: bold;
+    color: cornflowerblue;
+    margin-bottom: 20px;
+}
+
+.Noticias .btn1 {
+    height: 40px;
+    width: 140px;
+    background: transparent;
+    color: black;
+    outline: none;
+    border: 2px solid turquoise;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.Noticias .btn1:hover {
+    background: cadetblue;
+    border: none;
+    color: white;
+}
+
+.btn {
+    background-color: turquoise;
+    color: white;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.letter {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.letter input {
+    height: 45px;
+    width: 43%;
+    background: rgb(70, 70, 70);
+    border: none;
+    color: grey;
+}
+
+.letter {
+    font-size: 30px;
+    color: white;
+    padding: 0 20px;
+}
+
+.footer {
+    color: rgb(37, 37, 37);
+    background: rgb(29, 29, 29);
+}
+
